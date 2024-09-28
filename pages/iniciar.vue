@@ -5,7 +5,7 @@
       <img src="C:\Users\CRISTIAN\Downloads\descarga (14).png" alt="Iniciando el proyecto Nuxt" />
     </div>
 
-    <!-- Título Principal -->
+    <!-- Título Principal del Proyecto Nuxt -->
     <h1>Iniciar el Proyecto Nuxt</h1>
     <p>En esta sección, aprenderás cómo iniciar el servidor de desarrollo de Nuxt y cómo comenzar a trabajar en tu aplicación.</p>
     
@@ -25,6 +25,51 @@
 
     <h2>Paso 5: Finalizando el servidor</h2>
     <p>Cuando hayas terminado de trabajar, puedes detener el servidor presionando <code>Ctrl + C</code> en la terminal. Esto cerrará el servidor de desarrollo y liberará el puerto.</p>
+
+    <!-- Nuevo Título Principal para Git y GitHub -->
+    <h1>Configurar Git y GitHub para tu Proyecto</h1>
+    <p>En esta sección, aprenderás a crear un repositorio en GitHub y a inicializar Git en tu proyecto local.</p>
+
+    <h2>Paso 1: Crear un repositorio en GitHub</h2>
+    <ol>
+      <li>Ve a GitHub e inicia sesión con tu cuenta.</li>
+      <li>Haz clic en el botón "New" (Nuevo) en la esquina superior derecha para crear un nuevo repositorio.</li>
+      <li>Asigna un nombre a tu repositorio, por ejemplo: <code>grupo-trabajo</code>.</li>
+      <li>Puedes agregar una descripción opcional.</li>
+      <li>Selecciona si quieres que sea público o privado.</li>
+      <li>No añadas un archivo <code>README.md</code>, <code>.gitignore</code>, ni una licencia en esta etapa.</li>
+      <li>Haz clic en "Create repository".</li>
+    </ol>
+
+    <h2>Paso 2: Inicializar Git en tu proyecto</h2>
+    <p>En Visual Studio Code, abre la carpeta de tu proyecto <code>grupo-trabajo</code> y sigue estos pasos:</p>
+    <ol>
+      <li>Abre la terminal integrada en VS Code (Ctrl + ñ).</li>
+      <li>Inicializa Git en la carpeta:</li>
+      <pre><code>git init</code></pre>
+      <p>Esto crea un repositorio Git local en tu carpeta.</p>
+    </ol>
+
+    <h2>Paso 3: Añadir los archivos del proyecto al repositorio local</h2>
+    <ol>
+      <li>Añade todos los archivos:</li>
+      <pre><code>git add .</code></pre>
+      <p>Esto agrega todos los archivos de la carpeta al área de preparación (staging area).</p>
+      <li>Haz un primer commit:</li>
+      <pre><code>git commit -m "Primer commit - Proyecto de Nuxt.js"</code></pre>
+    </ol>
+
+    <h2>Paso 4: Vincular el repositorio local con GitHub</h2>
+    <ol>
+      <li>En la terminal, agrega el repositorio remoto:</li>
+      <pre><code>git remote add origin https://github.com/tu-usuario/grupo-trabajo.git</code></pre>
+      <p>Asegúrate de reemplazar <code>tu-usuario</code> con tu nombre de usuario de GitHub.</p>
+      <li>Empuja tu commit al repositorio remoto:</li>
+      <pre><code>git push -u origin master</code></pre>
+    </ol>
+
+    <h2>Paso 5: Verifica en GitHub</h2>
+    <p>Ahora puedes ir a GitHub y verificar que todos los archivos de tu proyecto se han subido correctamente.</p>
 
     <NuxtLink to="/">Volver a la página principal</NuxtLink>
   </div>
@@ -85,6 +130,3 @@ a:hover {
   color: #d35400;
 }
 </style>
-
-
-  
